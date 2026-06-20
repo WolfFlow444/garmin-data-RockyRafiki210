@@ -1,23 +1,10 @@
 {
-  "generated_at": "2026-06-19",
+  "generated_at": "2026-06-20",
   "profile": {
     "name": "Athlete",
-    "resting_hr_baseline": 46
+    "resting_hr_baseline": 50
   },
   "daily": [
-    {
-      "date": "2026-02-20",
-      "resting_hr": 50,
-      "hrv": 58,
-      "hrv_status": "balanced",
-      "stress_avg": 47,
-      "body_battery_high": 38,
-      "body_battery_low": 5,
-      "steps": 8513,
-      "calories": 2621.0,
-      "training_readiness": 40,
-      "vo2max": null
-    },
     {
       "date": "2026-02-21",
       "resting_hr": 49,
@@ -1557,27 +1544,29 @@
       "resting_hr": 46,
       "hrv": 77,
       "hrv_status": "balanced",
-      "stress_avg": 23,
+      "stress_avg": 41,
       "body_battery_high": 100,
-      "body_battery_low": 21,
-      "steps": 3437,
-      "calories": 1273.0,
-      "training_readiness": 97,
+      "body_battery_low": 7,
+      "steps": 17219,
+      "calories": 3235.0,
+      "training_readiness": 70,
+      "vo2max": 52.0
+    },
+    {
+      "date": "2026-06-20",
+      "resting_hr": 50,
+      "hrv": null,
+      "hrv_status": null,
+      "stress_avg": 38,
+      "body_battery_high": 36,
+      "body_battery_low": 5,
+      "steps": 329,
+      "calories": 844.0,
+      "training_readiness": null,
       "vo2max": null
     }
   ],
   "sleep": [
-    {
-      "date": "2026-02-20",
-      "score": 51,
-      "duration_min": 252,
-      "deep_min": 66,
-      "light_min": 180,
-      "rem_min": 6,
-      "awake_min": 19,
-      "bedtime": "",
-      "waketime": ""
-    },
     {
       "date": "2026-02-21",
       "score": 77,
@@ -2669,6 +2658,19 @@
     }
   ],
   "activities": [
+    {
+      "id": 23310937770,
+      "date": "2026-06-19",
+      "type": "running",
+      "name": "Austin Running",
+      "distance_km": 9.76,
+      "duration_min": 80.5,
+      "avg_pace_min_km": 8.25,
+      "avg_hr": 141.0,
+      "max_hr": 173.0,
+      "calories": 799,
+      "training_load": 83
+    },
     {
       "id": 23288469299,
       "date": "2026-06-17",
@@ -3985,12 +3987,6 @@
   ],
   "training_status": [
     {
-      "date": "2026-02-20",
-      "status": "productive",
-      "acute_load": null,
-      "chronic_load": null
-    },
-    {
       "date": "2026-02-21",
       "status": "productive",
       "acute_load": null,
@@ -4703,6 +4699,12 @@
       "status": "productive",
       "acute_load": null,
       "chronic_load": null
+    },
+    {
+      "date": "2026-06-20",
+      "status": "productive",
+      "acute_load": null,
+      "chronic_load": null
     }
   ],
   "personal_records": [
@@ -4763,8 +4765,8 @@
     {
       "category": "running",
       "label": "PR 16",
-      "value": 1.0,
-      "date": "2026-06-18"
+      "value": 2.0,
+      "date": "2026-06-19"
     }
   ]
 }
